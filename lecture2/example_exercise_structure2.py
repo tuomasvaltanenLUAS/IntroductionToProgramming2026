@@ -19,7 +19,8 @@ salary = float(salary)
 print()
 
 # PHASE 2: do the needed calculations as needed
-# by the exercise
+# by the exercise. This part tends to be the longest phase
+# in most exercises
 
 # increase modifier, +5%
 increase = 1.05
