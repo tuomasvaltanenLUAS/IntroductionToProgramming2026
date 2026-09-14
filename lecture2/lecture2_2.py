@@ -31,3 +31,10 @@ print(apples)
 # 25 - 24 => 1
 leftover = 25 % 4
 print(leftover)
+
+# this is a shortcut for:
+# salary = salary + 450
+
+# however, this shortcut style is VERY common!
+salary += 450
+print(salary)
