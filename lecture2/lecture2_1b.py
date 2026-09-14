@@ -1,3 +1,7 @@
+# THIS EXAMPLE IS ONLY TO DEMONSTRATE
+# WHY DATA TYPES NEED TO BE ADDRESSED
+# YOU SHOULD USE OTHER MEANS, LIKE f-string
+# instead of this approach!
 age = 35
 print(age)
 
