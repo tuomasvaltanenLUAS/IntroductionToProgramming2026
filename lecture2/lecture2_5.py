@@ -11,7 +11,7 @@ print()
 radius = 13
 
 # circumference (border around a circle)
-# equation => 2 * pi * radius
+#     => 2 * pi      * radius
 border = 2 * math.pi * radius
 
 # remember to save the result of the rounding

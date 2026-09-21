@@ -9,24 +9,30 @@
 # ask all needed variables from user (input)
 # and convert them to numbers if needed
 # YOU CAN ASK MULTIPLE VARIABLES FROM USER
-savings = input("How much savings do you have:\n")
-savings = float(savings)
-print()
 
-# let's also ask the user for their last month's salary
+# ask the salary from user => convert to decimal (float)
 salary = input("How much salary did you get this month?:\n")
 salary = float(salary)
 print()
 
-# PHASE 2: do the needed calculations as needed
-# by the exercise. This part tends to be the longest phase
-# in most exercises
+# ask the savings too
+savings = input("How much savings do you have:\n")
+savings = float(savings)
+print()
+
+# it's also fine to combine the float + input on the same line
+# savings = float(input("How much savings do you have?\n"))
+
+# PHASE 2: the actual calculation logic of the code
+# this part usually starts to grow longer and more complex
+# as we go further course
 
 # increase modifier, +5%
 increase = 1.05
 
-# calculate result
+# combine the input variables and apply the +15% increase
 total = (savings + salary) * increase
 
-# PHASE 3: print the result to the user in a nice output
+# PHASE 3 - print out the result for the user
+# USE F-STRING TO COMBINE TEXT AND NUMBERS EASILY
 print(f"New total sum after the increase: {total} €")

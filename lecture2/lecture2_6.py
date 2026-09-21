@@ -1,6 +1,10 @@
 # imports are always file-specific
 # you have to import everything again if you change the file
 
+# coding style tip: always place ALL your imports
+# on the top of for your file
+# this way other programmers immediately see what is
+# needed to install for this app
 import math
 
 # 3 to the power of 5, math-module way
@@ -25,5 +29,7 @@ print(root_value)
 # d = √3a
 # d = math.sqrt(3) * a
 side = 14
+
 diagonal = math.sqrt(3) * side
+
 print(f"The diagonal is {diagonal}")
