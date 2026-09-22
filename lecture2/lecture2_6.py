@@ -29,7 +29,5 @@ print(root_value)
 # d = √3a
 # d = math.sqrt(3) * a
 side = 14
-
 diagonal = math.sqrt(3) * side
-
 print(f"The diagonal is {diagonal}")
