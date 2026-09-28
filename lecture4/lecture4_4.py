@@ -18,3 +18,4 @@ if age == 30:
 # something else than exactly 30
 if age != 30:
     print("You are NOT EXACTLY 30 years old.")
+
