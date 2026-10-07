@@ -1,5 +1,4 @@
-# the logic is this
-
+# the logic is this:
 # Bad weather: if temperature is less than +10C
 # Bad weather: if humidity is over 80%
 # Bad weather: if wind speed is over 2.5 m/s
