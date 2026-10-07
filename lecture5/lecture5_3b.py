@@ -21,7 +21,7 @@ sun_rises = 7
 good_weather = True
 
 # if temperature < 10 or humidity > 80 or wind_speed > 2.5 or (hour > sun_....)
-# this gets pretty comples easily, DOES THIS EVEN WORK?
+# this gets pretty complex easily, DOES THIS EVEN WORK?
 
 if temperature < 10:
     good_weather = False
