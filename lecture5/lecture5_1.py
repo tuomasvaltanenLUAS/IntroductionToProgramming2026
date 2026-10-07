@@ -8,7 +8,7 @@ city = "Rovaniemi"
 # UNDERAGE USERS should be directed to use their own school's
 # HEALTH CARE services instead
 
-# is the user an adult?
+# is the user an adult? (18 years old or more!)
 if age >= 18:
     print("Adult! Give city-specific instructions here!")
 
@@ -21,5 +21,5 @@ if age >= 18:
         print("Health care address for adults: Somewhere Road 53")
 
 else:
-    # user is not adult, provide generic text below
+    # user is not adult, provide only generic text below
     print("Underage students: contact your school's health care services!")

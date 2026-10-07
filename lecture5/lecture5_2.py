@@ -6,7 +6,7 @@
 # other users pay full price + 2.5€ service fee added
 # if the ticket is over 100€, no service fee
 
-# ask the user for the needed vairables, convert price to decimal
+# ask the user for the needed variables, convert price to decimal
 status = input("Student or other? (s/o)\n")
 price = input("Original ticket price? (€)\n")
 price = float(price)

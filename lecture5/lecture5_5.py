@@ -24,7 +24,8 @@ number2 = float(number2)
 
 operation = input("Which operation you would like to perform? (+, -, *, /)\n")
 
-# create a variable before any conditionals, to keep track of final result
+# create a variable before any conditionals,
+# to keep track of the final result
 result = 0
 
 # PHASE 2: program logic, decide which operation to perform

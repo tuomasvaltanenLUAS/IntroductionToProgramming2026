@@ -20,14 +20,17 @@ hour = input("Give the current hour:\n")
 # IF THE USER INPUTS NOTHING, we replace the hour
 # with datetime's hour value!
 if hour == "":
+    # replace the hour with datetime's hour!
     timestamp = datetime.now()
     hour = timestamp.hour
     print(f"Using current hour AUTOMATICALLY: {hour}")
 
-# WHATEVER the hour currently is, convert to int
+# BASICALLY AS LONG AS THIS VARIABLE (hour) IS AN INTEGER
+# REPRESENTING THE HOUR  => ALL THE FOLLOWING CODE WILL WORK NORMALLY
 hour = int(hour)
 
-# PHASE 2: program logic
+# PHASE 2: program logic => greet the user base on
+# instructions above!
 if 5 <= hour <= 11:
     print("Good morning!")
 elif 12 <= hour <= 17:

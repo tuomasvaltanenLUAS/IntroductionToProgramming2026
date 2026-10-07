@@ -12,7 +12,8 @@
 hour = input("Give the current hour:\n")
 hour = int(hour)
 
-# PHASE 2: program logic
+# PHASE 2: program logic => greet the user base on
+# instructions above!
 if 5 <= hour <= 11:
     print("Good morning!")
 elif 12 <= hour <= 17:

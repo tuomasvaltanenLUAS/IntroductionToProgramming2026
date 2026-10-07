@@ -1,10 +1,11 @@
-# the logic is this:
+# the logic of the weather is this:
+
 # Bad weather: if temperature is less than +10C
 # Bad weather: if humidity is over 80%
 # Bad weather: if wind speed is over 2.5 m/s
 # Bad weather: if it's dark outside
 # In this case, we can assume it's dark outside
-# if time is between 20-24 or 0-7
+# if time (hour) is between 20-24 or 0-7
 
 # initialize variables
 temperature = 5
@@ -26,14 +27,14 @@ good_weather = True
 # if you start to have a condition like this, CONSIDER A HELPER BOOLEAN VARIABLE
 # to make the logic easier and manageable
 
-# if temperature < 10 or humidity > 80 or wind_speed > 2.5 or (hour > sun_....)
 # this gets pretty complex easily, DOES THIS EVEN WORK?
+# if temperature < 10 or humidity > 80 or wind_speed > 2.5 or (time > sun_down ...)
 
-# if temperature less than 10
+# if temperature less than 10 (check)
 if temperature < 10:
     good_weather = False
 
-# if humidity over 80%
+# if humidity over 80% (check)
 if humidity > 80:
     good_weather = False
 
