@@ -1,3 +1,4 @@
+# our example variables, we could ask these with input too
 age = 17
 city = "Rovaniemi"
 
@@ -18,6 +19,7 @@ if age >= 18:
         print("Health care address for adults: Test Alley 12")
     elif city == "Helsinki":
         print("Health care address for adults: Somewhere Road 53")
+
 else:
     # user is not adult, provide generic text below
     print("Underage students: contact your school's health care services!")
