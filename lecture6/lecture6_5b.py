@@ -1,12 +1,5 @@
 # our test data
-drinks = "water, milk, coffee, tea, water"
-
-# replace water with soda
-# if you want to replace only the first water
-# drink = drinks.replace("water", "soda", 1)
-# you can also "remove" a word by replacing it with an empty string
-# drinks = drinks.replace("water", "")
-drinks = drinks.replace("water", "soda")
+drinks = "water, milk, coffee, tea, soda"
 
 # ask user for their drink selection
 choice = input("What would you like to drink?\n")
