@@ -15,6 +15,6 @@ if text.isnumeric():
     # which means we can convert this to int/float
     number = int(text)
     result = number * 2
-    print(f"Number dobuled: {result}")
+    print(f"Number doubled: {result}")
 else:
     print("User gave text.")
