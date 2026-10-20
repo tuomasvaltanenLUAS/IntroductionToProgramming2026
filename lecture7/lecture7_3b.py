@@ -6,7 +6,7 @@
 start = 2018
 end = 2026
 
-# you can define start and end of the range
+# you can also define start and end of the range
 # often used with year ranges, but otherwise
 # surprisingly rarely used
 
