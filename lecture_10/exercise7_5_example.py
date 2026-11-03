@@ -24,7 +24,7 @@ for city in weather:
     print()
 
     # place needed if-statements here to determine
-    # strongest and weakest wind
+    # the strongest and the weakest wind
 
     # NOTE! you can check for both weakest and strongest winds
     # in THE SAME for-loop, NO NEED FOR TWO SEPARATE FOR-LOOPS
