@@ -16,3 +16,27 @@ def show_text():
     print("Please follow the instructions.")
     print()
 
+
+# another function: combine_text
+# three parameters: first name, surname, age
+# prints all information based on the parameters
+def combine_text(first, last, age):
+    print(f"Welcome, {first} {last}.")
+    print(f"You are {age} years old.")
+
+
+# define a function that returns data
+# => remember to save the result into a variable
+def get_year():
+    result = 2026
+    return result
+
+
+# define a function that determines
+# if a given number is odd or even
+# and return the result as text
+def get_even_number_text(number):
+    if number % 2 == 0:
+        return "EVEN!"
+    else:
+        return "ODD!"
