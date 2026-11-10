@@ -40,3 +40,10 @@ def get_even_number_text(number):
         return "EVEN!"
     else:
         return "ODD!"
+
+
+# define a function that reverses a string
+# this is a handy way to hide the weird
+# Python way which reverses the string
+def reverse_string(text):
+    return text[::-1]
