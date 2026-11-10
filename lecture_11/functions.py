@@ -89,3 +89,21 @@ def check_order(code):
     return result
 
 
+# define a helper function that prints
+# the content of ANY given list
+def show_list(data):
+
+    # loop through the list of and print contents
+    for word in data:
+        print(word)
+
+# define a helper function to calculate
+# the average of ANY GIVEN NUMERIC LIST, whatever it is:
+def get_list_average(numbers):
+    total = sum(numbers)
+    amount = len(numbers)
+
+    # calculate average and round
+    result = total / amount
+    result = round(result, 2)
+    return result
