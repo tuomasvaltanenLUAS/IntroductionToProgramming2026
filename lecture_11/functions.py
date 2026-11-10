@@ -49,8 +49,43 @@ def hours_to_days(hours):
     result = hours // 24
     return result
 
+
 # define a function that reverses a string
 # this is a handy way to hide the weird
 # Python way which reverses the string
 def reverse_string(text):
     return text[::-1]
+
+
+# define a function that checks it fhe given text
+# is a palindrome or not
+# (= text is identical also when reversed)
+def check_palindrome(text):
+    reversed_text = reverse_string(text)
+
+    # check if the original text and reversed text MATCH
+    # return a Boolean
+    if text == reversed_text:
+        return True
+    else:
+        return False
+
+
+# define a function that checks if the given
+# order code follows the needed format, which is:
+# EXACTLY 10 characters long, FIRST LETTER has to be T
+# this is a so-called "validation function"
+def check_order(code):
+    result = True
+
+    # condition 1: length has to be exactly 10
+    if len(code) != 10:
+        result = False
+
+    # condition 2: first letter has to be T
+    if code[0] != "T":
+        result = False
+
+    return result
+
+
