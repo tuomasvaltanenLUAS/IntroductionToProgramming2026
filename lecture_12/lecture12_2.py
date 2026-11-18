@@ -14,7 +14,7 @@ counter = 1
 while True:
     # read one line at a time
     line = file_handle.readline()
-    print(F"{counter}. {line}")
+    print(f"{counter}. {line}")
 
     # increase the line number counter
     counter = counter + 1
