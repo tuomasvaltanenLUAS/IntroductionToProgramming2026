@@ -13,6 +13,7 @@ file_handle.close()
 amount = len(lines)
 
 # just a normal list, loop through, as you see fit
+# VERSION 2: have the index number included
 for index in range(amount):
     # get the line and print a numbered list
     line = lines[index]
